@@ -2,6 +2,23 @@
     font-family: Arial;
     font-size: 16px;
     padding: 8px;
+    background: linear-gradient(to top,#fbc2eb 0%,#a18cd1 100%);
+  }
+  .fa{
+    margin: 0 7px;
+  }
+  .main-title{
+    border-radius: 3px;
+    width: 58%;
+    margin: auto;
+    padding: 6px;
+    color: white;
+    font-weight: bolder;
+    background: black;
+  }
+  .main-container{
+    max-width: 780px;
+    margin: 0 auto;
   }
   .normalFont{
     font-size: 14px;

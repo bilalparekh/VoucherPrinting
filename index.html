@@ -10,86 +10,88 @@
 
 </head>
 <body>
+<div class="main-container">
+  <div style="text-align: center;">
+    <input style="max-width: 20%;" type="text" id="copyName" name="copyName" placeholder="Enter Copy Name">
+    <input type="text" id="companyName" name="companyName" placeholder="Enter Company Name">
 
-<div style="text-align: center;">
-  <input style="max-width: 20%;" type="text" id="copyName" name="copyName" placeholder="Copy Name">
-  <input type="text" id="companyName" name="companyName" placeholder="Company Name">
+    <p class="main-title">Payment Reciepts</p>
 
-    <p style="border: 1px solid black;border-radius: 3px;width: 30%;margin: auto;">Payment Reciepts</p>
-
-</div>
-<div class="row viewContainer">
-  <div class="col-75">
-    <div class="container">
-      <form action="/action_page.php">
-      
-        <div class="row">
-          <div class="col-50">
-            <h3></h3>
-            <label for="name"><i class="fa fa-user"></i>Recieve By Name</label>
-            <input type="text" id="name" name="firstname" placeholder="b">
-            
-            
-            <label for="cNum"><i class="fa fa-phone"></i>Recieve By Contact Number</label>
-            <input type="text" id="cNum" name="cNum" placeholder="314124124144">
-            <label for="unit"><i class="fa fa-user"></i>Unit #</label>
-            <input type="text" id="unit" name="unit" placeholder="B0102/4">
-            
-            <label for="floor"><i class="fa fa-user"></i>Floor</label>
-            <input type="text" id="floor" name="floor" placeholder="5th">
-            <label for="paymentType"><i class="fa fa-user"></i>Type of Payment</label>
-            <input type="text" id="paymentType" name="paymentType" placeholder="Monthly Installments">
-            
-            <label for="date"><i class="fa fa-calendar"></i> Date</label>
-            <input type="date" id="date" name="date" placeholder="DD/MM/YYYY">
-            <label for="amount"><i class="fa fa-address-card-o"></i> Amount</label>
-            <input type="text" id="amount" name="amount" placeholder="60,0000">
-            
-
-            
-          </div>
-
-          <div class="col-50">
-            <h3></h3>
-            <label for="fname"><i class="fa fa-user"></i>Recieve By Father Name</label>
-            <input type="text" id="fname" name="fathername" placeholder="a">
-            <label for="wname"><i class="fa fa-user"></i>Recieve By Wife Name</label>
-            <input type="text" id="wname" name="wifename" placeholder="z">
-            <label for="type"><i class="fa fa-user"></i>Type</label>
-            <input type="text" id="type" name="type" placeholder="4 Rooms Bed">
-            
-            <label for="paymentMode"><i class="fa fa-user"></i>Mode of Payment</label>
-            <input type="text" id="paymentMode" name="paymentMode" placeholder="Online transfer">
-            <label for="chequePO"><i class="fa fa-user"></i>Cheque/PO No:</label>
-            <input type="text" id="chequePO" name="chequePO" placeholder=" DIR DEP ">
-            <label for="bank"><i class="fa fa-user"></i>Bank</label>
-            <input type="text" id="bank" name="bank" placeholder=" BAHL ">
-            <label for="empName"><i class="fa fa-user"></i>Employee Name</label>
-            <input type="text" id="empName" name="empName" placeholder="ABCD DD ">
-          </div>
-          
-        </div>
-        <div class="row">
-            <div class="col-50">
-                <h2>Note :</h2>
-                <ul>
-                    <li>Receipt Valid Subject to Realization of Cheque</li>
-                    <li>Bank Charges deducted will be recovered from Customer (if any).</li>
-                    <li>All Installments must be paid by 10th of every month.</li>
-                </ul>
-            </div>
-            <!-- <div class="col-50" class="signature">
-            </br></br></br></br>
-                <p style="margin: 0 6px;">______________________________________________________</p>
-                <label style="text-align: center;">For : <span id="companyNameValue"></span></label>
-            </div> -->
-        </div>
-        <input type="button" value="PRINT" class="btn">
-      </form>
-    </div>
   </div>
-  
+  <div class="row viewContainer">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+        
+          <div class="row">
+            <div class="col-50">
+              <h3></h3>
+              <label for="name"><i class="fa fa-user"></i>Recieve By Name</label>
+              <input type="text" id="name" name="firstname" placeholder="b">
+              
+              
+              <label for="cNum"><i class="fa fa-phone"></i>Recieve By Contact Number</label>
+              <input type="text" id="cNum" name="cNum" placeholder="314124124144">
+              <label for="unit"><i class="fa fa-user"></i>Unit #</label>
+              <input type="text" id="unit" name="unit" placeholder="B0102/4">
+              
+              <label for="floor"><i class="fa fa-user"></i>Floor</label>
+              <input type="text" id="floor" name="floor" placeholder="5th">
+              <label for="paymentType"><i class="fa fa-user"></i>Type of Payment</label>
+              <input type="text" id="paymentType" name="paymentType" placeholder="Monthly Installments">
+              
+              <label for="date"><i class="fa fa-calendar"></i> Date</label>
+              <input type="date" id="date" name="date" placeholder="DD/MM/YYYY">
+              <label for="amount"><i class="fa fa-address-card-o"></i> Amount</label>
+              <input type="text" id="amount" name="amount" placeholder="60,0000">
+              
+
+              
+            </div>
+
+            <div class="col-50">
+              <h3></h3>
+              <label for="fname"><i class="fa fa-user"></i>Recieve By Father Name</label>
+              <input type="text" id="fname" name="fathername" placeholder="a">
+              <label for="wname"><i class="fa fa-user"></i>Recieve By Wife Name</label>
+              <input type="text" id="wname" name="wifename" placeholder="z">
+              <label for="type"><i class="fa fa-user"></i>Type</label>
+              <input type="text" id="type" name="type" placeholder="4 Rooms Bed">
+              
+              <label for="paymentMode"><i class="fa fa-user"></i>Mode of Payment</label>
+              <input type="text" id="paymentMode" name="paymentMode" placeholder="Online transfer">
+              <label for="chequePO"><i class="fa fa-user"></i>Cheque/PO No:</label>
+              <input type="text" id="chequePO" name="chequePO" placeholder=" DIR DEP ">
+              <label for="bank"><i class="fa fa-user"></i>Bank</label>
+              <input type="text" id="bank" name="bank" placeholder=" BAHL ">
+              <label for="empName"><i class="fa fa-user"></i>Employee Name</label>
+              <input type="text" id="empName" name="empName" placeholder="ABCD DD ">
+            </div>
+            
+          </div>
+          <div class="row">
+              <div class="col-50">
+                  <h2>Note :</h2>
+                  <ul>
+                      <li>Receipt Valid Subject to Realization of Cheque</li>
+                      <li>Bank Charges deducted will be recovered from Customer (if any).</li>
+                      <li>All Installments must be paid by 10th of every month.</li>
+                  </ul>
+              </div>
+              <!-- <div class="col-50" class="signature">
+              </br></br></br></br>
+                  <p style="margin: 0 6px;">______________________________________________________</p>
+                  <label style="text-align: center;">For : <span id="companyNameValue"></span></label>
+              </div> -->
+          </div>
+          <input type="button" value="PRINT" class="btn">
+        </form>
+      </div>
+    </div>
+    
+  </div>
 </div>
+
 <div class="printContainer">
   <div class="row">
     <div class="col-50" style="margin: 1.2em 0;">
